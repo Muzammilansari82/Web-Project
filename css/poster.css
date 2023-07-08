@@ -1,0 +1,31 @@
+.red-bg {
+    display: flex;
+    width: 100%;
+    background-color: rgb(240, 40, 45);
+  }
+  .red-bg-1 {
+    width: 622px;
+    height: 669px;
+  }
+  .red-bg-2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left: 180px;
+  }
+  .redh1 {
+    font-size: 50px;
+  }
+  .redp {
+    font-size: 20px;
+    margin-top: -5px;
+  }
+  .redbtn {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 12px 16px;
+    width: 200px;
+    border-radius: 6px;
+    height: 50px;
+  }

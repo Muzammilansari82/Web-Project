@@ -1,0 +1,177 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.channel-movi {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .channel-movi img {
+    width: 200px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .channel-movi img:hover {
+    transform: scale(1.1);
+    transition: 1s all ease-in-out;
+  }
+  
+footer {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer {
+    display: flex;
+  }
+  
+  .ft-img {
+    width: 125px;
+    margin-top: 25px;
+    margin-left: 60px;
+    display: inline;
+  }
+  
+  .ft-a {
+    margin-top: 25px;
+    margin-left: 90px;
+  }
+  
+  .ft-a-a {
+    margin-left: 50px;
+    display: block;
+    margin-top: 10px;
+    color: #b4b4b4;
+    margin-top: 20px;
+  }
+  
+  .a1 {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  
+  hr {
+    background-color: #b4b4b4;
+    width: 90%;
+    margin-top: 40px;
+    height: 0.1px;
+  }
+  
+  .a3 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: -5px;
+  }
+  
+  .a3 a {
+    color: #b4b4b4;
+    margin-left: 50px;
+  }
+  
+  .a4 {
+    height: 28vh;
+    background-color: #181818;
+  }
+  
+  .a5 {
+    width: 120px;
+    height: 38px;
+  
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .a0 {
+    margin-left: 35%;
+  }
+  
+  .a0 img {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: -30px;
+  }
+  
+  
+  @media only screen and (max-width: 360px) {
+    .footer {
+      display: block;
+    }
+  
+    .ft-img {
+      margin-left: 55px;
+      display: block;
+    }
+  
+    .ft-a {
+      margin-left: 30px;
+      display: block;
+    }
+  
+    .ft-a-a {
+      margin-left: 15px;
+      margin-top: 15px;
+      display: block;
+    }
+  
+    .a1 {
+      margin-left: 15px;
+      display: block;
+    }
+  
+    hr {
+      margin-top: 30px;
+      display: block;
+    }
+  
+    .a3 {
+      margin-top: 20px;
+      display: block;
+    }
+  
+    .a4 {
+      height: 20vh;
+      display: block;
+    }
+  
+    .a5 {
+      margin-left: 10px;
+      margin-top: 5px;
+      display: block;
+    }
+  
+    .a0 {
+      margin-left: 5%;
+      display: block;
+    }
+  }
+
+  
+.footer2 {
+  color: white;
+  text-decoration: none;
+}
+
+.ft-a {
+  margin-top: 25px;
+  margin-left: 20px;
+
+}
+
+.ft-a-a {
+  margin-left: 50px;
+  display: block;
+  margin-top: 10px;
+  color: #b4b4b4;
+  margin-top: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
